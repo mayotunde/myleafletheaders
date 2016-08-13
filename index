@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>leaflet markers</title>
+<link rel="stylesheet" href="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/leaflet.css" />
+<script src="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/leaflet.js"></script>
+</head>
+<body>
+<div id="map" style="width: 600px;height:400px"></div>
+
+<script>
+var map = L.map('map').setView([14.6, 2.9], 5);
+mapLink = 
+'<a href="https://openstreetmap.org">OSM</a>,'+
+	'<a href="https://mapsnigeriainitiative.wordpress.com">mapsnigeriainitiative</a>';
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+ {attribution: ' &copy;' + mapLink
+}).addTo(map);
+
+
+</script>
+</body>
+</html>
