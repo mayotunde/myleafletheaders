@@ -3,7 +3,8 @@
 <meta charset="utf-8" />
 <title>leaflet markers</title>
 <link rel="stylesheet" href="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/leaflet.css" />
-<script src="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/leaflet.src.js"></script>
+<script src="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/leaflet-src.js"></script>
+<script src="https://cdn.rawgit.com/mayotunde/myleafletheaders/master/marker-icon.png"></script>
 </head>
 <body>
 <div id="map" style="width: 600px;height:400px"></div>
